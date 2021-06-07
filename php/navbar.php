@@ -71,11 +71,11 @@
         </ul>
       </div>
     </div>
-    <div class="text-white align-self-center __font-400 pt-1 pb-1 __custom-gradient rounded  m-auto col-sm-12 col-md-12 col-12 col-lg-2">
+    <a class="btn text-white align-self-center __font-400 pt-1 pb-1 __custom-gradient rounded  m-auto col-sm-12 col-md-12 col-12 col-lg-2" href=" https://wa.me/447969553031">
       <span>
         <p class="p-0 m-0 __text-12px text-center">Call Us For FREE</p>
         <p class="p-0 m-0 text-center __font-700 ">+44-7969-553031</p>
       </span>
-    </div>
+    </a>
   </nav>
 </div>
