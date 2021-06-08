@@ -1,0 +1,39 @@
+/*variable for color*/
+:root {
+  --blue: #333B69;
+  --red: #BE0000;
+}
+
+/*background color*/
+.__color-background-blue{
+  background-color: var(--blue) !important;
+}
+.__color-background-red{
+  background-color: var(--red) !important;
+}
+
+
+/*typography*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+.__roboto-font{
+  font-family: 'Roboto', sans-serif;
+}
+.__font-400{
+  font-weight: 400;
+}
+.__font-700{
+  font-weight: 700;
+}
+.__color-blue{
+  color: var(--blue) !important;
+}
+.__color-red{
+  color: var(--red) !important;
+}
+.__text-12px{
+  font-size: 12px !important;
+}
+.__custom-gradient{
+  background-image: linear-gradient(to right, #FD9A70 , #FA6262);
+}
