@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 /*variable for color*/
 :root {
   --blue: #333B69;
   --red: #BE0000;
+  --lightblue: #6A798C;
+  --orange: #FA6262;
 }
 
 /* Genaral */
@@ -9,16 +12,13 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "Roboto", sans-serif;
-	font-size: 14px;
 	line-height: 1.5;
 	font-smoothing: antialiased;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
-	background: #fff;
 	outline: 0;
 	overflow-x: hidden;
-	overflow-y: auto;
-	color: #6A798C; }
+	overflow-y: auto; }
 	body img {
 		border: none;
 		max-width: 100%;
@@ -30,7 +30,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: #FA6262;
+	color: var(--orange);
 	transition: color 0.1s ease-in-out; }
 	a:hover, a:focus {
 		text-decoration: none;
@@ -52,14 +52,6 @@ hr {
 	border-color: #E8ECED; }
 
 
-/*background color*/
-.__color-background-blue{
-  background-color: var(--blue) !important;
-}
-.__color-background-red{
-  background-color: var(--red) !important;
-}
-
 
 /*typography*/
 /* --------------------------------- */
@@ -79,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: -0.01em; }
 
 h1 {
-	font-size: 40px; }
+	font-size: 45px; }
 
 h2 {
 	font-size: 34px; }
@@ -115,9 +107,6 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /* --------------------------------- */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
-
 .__roboto-font{
   font-family: 'Roboto', sans-serif;
 }
@@ -133,9 +122,42 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .__color-red{
   color: var(--red) !important;
 }
+.__color-lightblue{
+  color: var(--lightblue) !important;
+}
+
 .__text-12px{
   font-size: 12px !important;
 }
 .__custom-gradient{
   background-image: linear-gradient(to right, #FD9A70 , #FA6262);
 }
+
+/*background color*/
+.__color-background-blue{
+  background-color: var(--blue) !important;
+}
+.__color-background-red{
+  background-color: var(--red) !important;
+}
+
+
+/* Social Icons */
+
+/* ---------------------------------------------------- */
+
+.social {
+  display: inline-block;
+	line-height: 40px;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+  background-color: var(--red);
+  color: #fff !important;
+	text-align: center;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	font-size: 15px;
+	transition: all 0.1s ease-in-out; }
+
+/* ---------------------------------------------------- */
