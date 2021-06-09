@@ -1,20 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 /*variable for color*/
 :root {
   --blue: #333B69;
   --red: #BE0000;
+  --lightblue: #6A798C;
+  --orange: #FA6262;
 }
 
-/*background color*/
-.__color-background-blue{
-  background-color: var(--blue) !important;
-}
-.__color-background-red{
-  background-color: var(--red) !important;
-}
+/* Genaral */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+	line-height: 1.5;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	outline: 0;
+	overflow-x: hidden;
+	overflow-y: auto; }
+	body img {
+		border: none;
+		max-width: 100%;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-o-user-select: none;
+		-ms-user-select: none;
+		    user-select: none; }
+
+a {
+	text-decoration: none;
+	color: var(--orange);
+	transition: color 0.1s ease-in-out; }
+	a:hover, a:focus {
+		text-decoration: none;
+		color: #333B69; }
+
+p {
+	font-size: 15px;
+	color: #6A798C;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 0 0 10px; }
+
+video {
+	height: 100%;
+	width: 100%; }
+
+hr {
+	margin: 0;
+	border-color: #E8ECED; }
+
 
 
 /*typography*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+/* --------------------------------- */
+
+ul, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto", sans-serif;
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: #333B69;
+	font-weight: 700;
+	line-height: 1.3;
+	letter-spacing: -0.01em; }
+
+h1 {
+	font-size: 45px; }
+
+h2 {
+	font-size: 34px; }
+
+h3 {
+	font-size: 28px; }
+
+h4 {
+	font-size: 24px; }
+
+h5 {
+	font-size: 21px; }
+
+h6 {
+	font-size: 18px; }
+
+@media only screen and (max-width: 575px) {
+	h1 {
+		font-size: 32px; }
+	h2 {
+		font-size: 28px; }
+	h3 {
+		font-size: 26px; } }
+
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+	color: inherit; }
+	h1 > a:hover, h1 > a:focus, h2 > a:hover, h2 > a:focus, h3 > a:hover, h3 > a:focus, h4 > a:hover, h4 > a:focus, h5 > a:hover, h5 > a:focus, h6 > a:hover, h6 > a:focus {
+		color: #FA6262; }
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+	color: #333B69;
+	font-size: 85%; }
+
+/* --------------------------------- */
 
 .__roboto-font{
   font-family: 'Roboto', sans-serif;
@@ -31,9 +122,42 @@
 .__color-red{
   color: var(--red) !important;
 }
+.__color-lightblue{
+  color: var(--lightblue) !important;
+}
+
 .__text-12px{
   font-size: 12px !important;
 }
 .__custom-gradient{
   background-image: linear-gradient(to right, #FD9A70 , #FA6262);
 }
+
+/*background color*/
+.__color-background-blue{
+  background-color: var(--blue) !important;
+}
+.__color-background-red{
+  background-color: var(--red) !important;
+}
+
+
+/* Social Icons */
+
+/* ---------------------------------------------------- */
+
+.social {
+  display: inline-block;
+	line-height: 40px;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+  background-color: var(--red);
+  color: #fff !important;
+	text-align: center;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	font-size: 15px;
+	transition: all 0.1s ease-in-out; }
+
+/* ---------------------------------------------------- */
