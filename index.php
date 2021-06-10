@@ -1,26 +1,115 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <?php require 'php/navbar.php'; ?>
+<?php require 'php/header.php'; ?>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+<body>
+  <?php require 'php/navbar.php'; ?>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <!-- Fast Fact Section Start -->
+  <?php require 'php/fast-facts.php'; ?>
+  <!-- Fast Fact Section Ends -->
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    -->
-  </body>
+  <!-- Testimonials Starts -->
+  <div class="testimonial">
+    <div class="container my-5 py-5">
+      <h2 class="text-center __color-red mb-0">Satisfied Customers</h2>
+      <p class="text-center fw-bold mb-3.">Those who Loved Our Services</p>
+      <div class="owl-carousel">
+
+        <div class="testimonial-card m-5">
+          <div class="card-body p-5">
+            <div class="d-inline-flex align-items-center">
+              <img src="img\featured-logo\queens.jpg" alt="" class="testimonial__img me-3">
+              <div class="">
+                <h5 class="__card-author">Card title</h5>
+                <h6 class="__card-subtitle mb-0">Card subtitle</h6>
+              </div>
+            </div>
+            <p class="__card-text mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit eget purus risus, etiam vehicula semper. Sit imperdiet lectus donec tortor. Risus neque mi nec, ut sit. Ac commodo sit sagittis, mollis. Nunc, et bibendum ut malesuada sed. Et tristique bibendum commodo viverra sit ac rhoncus. Vitae, feugiat malesuada vulputate ligula egestas.</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card m-5">
+          <div class="card-body p-5">
+            <div class="d-inline-flex align-items-center">
+              <img src="img\featured-logo\queens.jpg" alt="" class="testimonial__img me-3">
+              <div class="">
+                <h5 class="__card-author">Card title</h5>
+                <h6 class="__card-subtitle mb-0">Card subtitle</h6>
+              </div>
+            </div>
+            <p class="__card-text mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit eget purus risus, etiam vehicula semper. Sit imperdiet lectus donec tortor. Risus neque mi nec, ut sit. Ac commodo sit sagittis, mollis. Nunc, et bibendum ut malesuada sed. Et tristique bibendum commodo viverra sit ac rhoncus. Vitae, feugiat malesuada vulputate ligula egestas.</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card m-5">
+          <div class="card-body p-5">
+            <div class="d-inline-flex align-items-center">
+              <img src="img\featured-logo\queens.jpg" alt="" class="testimonial__img me-3">
+              <div class="">
+                <h5 class="__card-author">Card title</h5>
+                <h6 class="__card-subtitle mb-0">Card subtitle</h6>
+              </div>
+            </div>
+            <p class="__card-text mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit eget purus risus, etiam vehicula semper. Sit imperdiet lectus donec tortor. Risus neque mi nec, ut sit. Ac commodo sit sagittis, mollis. Nunc, et bibendum ut malesuada sed. Et tristique bibendum commodo viverra sit ac rhoncus. Vitae, feugiat malesuada vulputate ligula egestas.</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card m-5">
+          <div class="card-body p-5">
+            <div class="d-inline-flex align-items-center">
+              <img src="img\featured-logo\queens.jpg" alt="" class="testimonial__img me-3">
+              <div class="">
+                <h5 class="__card-author">Card title</h5>
+                <h6 class="__card-subtitle mb-0">Card subtitle</h6>
+              </div>
+            </div>
+            <p class="__card-text mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit eget purus risus, etiam vehicula semper. Sit imperdiet lectus donec tortor. Risus neque mi nec, ut sit. Ac commodo sit sagittis, mollis. Nunc, et bibendum ut malesuada sed. Et tristique bibendum commodo viverra sit ac rhoncus. Vitae, feugiat malesuada vulputate ligula egestas.</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card m-5">
+          <div class="card-body p-5">
+            <div class="d-inline-flex align-items-center">
+              <img src="img\featured-logo\queens.jpg" alt="" class="testimonial__img me-3">
+              <div class="">
+                <h5 class="__card-author">Card title</h5>
+                <h6 class="__card-subtitle mb-0">Card subtitle</h6>
+              </div>
+            </div>
+            <p class="__card-text mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit eget purus risus, etiam vehicula semper. Sit imperdiet lectus donec tortor. Risus neque mi nec, ut sit. Ac commodo sit sagittis, mollis. Nunc, et bibendum ut malesuada sed. Et tristique bibendum commodo viverra sit ac rhoncus. Vitae, feugiat malesuada vulputate ligula egestas.</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card m-5">
+          <div class="card-body p-5">
+            <div class="d-inline-flex align-items-center">
+              <img src="img\featured-logo\queens.jpg" alt="" class="testimonial__img me-3">
+              <div class="">
+                <h5 class="__card-author">Card title</h5>
+                <h6 class="__card-subtitle mb-0">Card subtitle</h6>
+              </div>
+            </div>
+            <p class="__card-text mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit eget purus risus, etiam vehicula semper. Sit imperdiet lectus donec tortor. Risus neque mi nec, ut sit. Ac commodo sit sagittis, mollis. Nunc, et bibendum ut malesuada sed. Et tristique bibendum commodo viverra sit ac rhoncus. Vitae, feugiat malesuada vulputate ligula egestas.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Testimonials Ends -->
+
+  <!-- Footer Starts -->
+  <?php require 'php/footer.php'; ?>
+  <!-- Footer Ends -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/74fd6a799b.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="js\script.js"></script>
+</body>
+
 </html>
