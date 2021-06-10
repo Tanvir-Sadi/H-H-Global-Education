@@ -21,8 +21,8 @@
             <div class="card-body">
               <a href="#" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="text-decoration-underline">Lorem ipsum dolor sit amet</span>
-                  <i class="fas fa-arrow-alt-circle-right"></i>
+                  <span class="text-decoration-underline">Who We Are</span>
+                  <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
                 </div>
               </a>
             </div>
@@ -35,8 +35,8 @@
             <div class="card-body">
               <a href="#" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="text-decoration-underline">Lorem ipsum dolor sit amet</span>
-                  <i class="fas fa-arrow-alt-circle-right"></i>
+                  <span class="text-decoration-underline">Job Opportunity</span>
+                  <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
                 </div>
               </a>
             </div>
@@ -49,8 +49,8 @@
             <div class="card-body">
               <a href="#" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="text-decoration-underline">Lorem ipsum dolor sit amet</span>
-                  <i class="fas fa-arrow-alt-circle-right"></i>
+                  <span class="text-decoration-underline">Meet the Team</span>
+                  <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
                 </div>
               </a>
             </div>
@@ -63,8 +63,8 @@
             <div class="card-body">
               <a href="#" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="text-decoration-underline">Lorem ipsum dolor sit amet</span>
-                  <i class="fas fa-arrow-alt-circle-right"></i>
+                  <span class="text-decoration-underline">Achievements</span>
+                  <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
                 </div>
               </a>
             </div>
@@ -77,8 +77,8 @@
             <div class="card-body">
               <a href="#" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="text-decoration-underline">Lorem ipsum dolor sit amet</span>
-                  <i class="fas fa-arrow-alt-circle-right"></i>
+                  <span class="text-decoration-underline">Professional Recognition</span>
+                  <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
                 </div>
               </a>
             </div>
@@ -91,8 +91,8 @@
             <div class="card-body">
               <a href="#" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="text-decoration-underline">Lorem ipsum dolor sit amet</span>
-                  <i class="fas fa-arrow-alt-circle-right"></i>
+                  <span class="text-decoration-underline">Testimonials from Students</span>
+                  <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
                 </div>
               </a>
             </div>
@@ -105,8 +105,8 @@
             <div class="card-body">
               <a href="#" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="text-decoration-underline">Lorem ipsum dolor sit amet</span>
-                  <i class="fas fa-arrow-alt-circle-right"></i>
+                  <span class="text-decoration-underline">Legal Aid for UK Education</span>
+                  <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
                 </div>
               </a>
             </div>
@@ -119,8 +119,8 @@
             <div class="card-body">
               <a href="#" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="text-decoration-underline">Lorem ipsum dolor sit amet</span>
-                  <i class="fas fa-arrow-alt-circle-right"></i>
+                  <span class="text-decoration-underline">Global Branches</span>
+                  <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
                 </div>
               </a>
             </div>
@@ -133,7 +133,7 @@
             <div class="card-body">
               <a href="#" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="text-decoration-underline">Lorem ipsum dolor sit amet</span>
+                  <span class="text-decoration-underline">News</span>
                   <i class="fas fa-arrow-alt-circle-right"></i>
                 </div>
               </a>
