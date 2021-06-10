@@ -125,6 +125,9 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .__color-lightblue{
   color: var(--lightblue) !important;
 }
+.__color-orange{
+  color: var(--orange) !important;
+}
 
 .__text-12px{
   font-size: 12px !important;
@@ -308,3 +311,19 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 15px;
   line-height: 18px;
 } */
+/* ---------------------------------------------------- */
+.__bg-image{
+  background-repeat: no-repeat;
+  /* background-position: right; */
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;}
+
+.__90vh{
+  height: 70vh;
+}
+.navbar {
+  box-shadow: none !important; }
+.position-image2{
+  transform: translate(0px,-30vh);
+}
