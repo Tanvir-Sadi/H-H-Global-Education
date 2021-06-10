@@ -1,6 +1,6 @@
 <nav class="navbar flex-column __color-background-blue">
   <span class="d-flex align-items-start text-center text-white __roboto-font align-self-center">
-    <p class="p-2 flex-grow-1 bd-highlight mb-0 align-self-center">We are using cookies to personalize content and ads to make our site easier for you to use</p>
+    <p class="p-2 text-white flex-grow-1 bd-highlight mb-0 align-self-center">We are using cookies to personalize content and ads to make our site easier for you to use</p>
     <a class="align-self-center p-2 bd-highlight __color-red __font-700" href="#">learn more</a>
     <button type="button" class="align-self-center btn text-white __color-background-red m-2">Confirm</button>
   </span>
@@ -73,8 +73,8 @@
     </div>
     <a class="btn text-white align-self-center __font-400 pt-1 pb-1 __custom-gradient rounded  m-auto col-sm-12 col-md-12 col-12 col-lg-2" href=" https://wa.me/447969553031">
       <span>
-        <p class="p-0 m-0 __text-12px text-center">Call Us For FREE</p>
-        <p class="p-0 m-0 text-center __font-700 ">+44-7969-553031</p>
+        <p class="p-0 m-0 __text-12px text-center text-white">Call Us For FREE</p>
+        <p class="p-0 m-0 text-center __font-700 text-white">+44-7969-553031</p>
       </span>
     </a>
   </nav>
