@@ -5,6 +5,108 @@
 <body>
   <?php require 'php/navbar.php'; ?>
 
+  <!-- hero start -->
+
+  <div class="container-fluid __90vh p-0">
+      <div class="d-flex justify-content-end">
+        <img src="images\homeblob1.png" class="rounded float-rignt img-fluid __bg-image flex-column bg-white" alt="..." height="100%">
+      </div>
+      <div class="container align-middle">
+        <div class="row d-sm-block">
+          <div class="col-12 col-lg-6 clear-right">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="my-5 py-5 __roboto-font">
+                <h1 class=" __color-blue __font-700 __text-40px">Serving Your Future Through Education</h1>
+                <p class="lead __color-lightblue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus risus amet enim enim. Lorem ipsum dolor sit amet, consectetur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="shadow p-3 my-lg-5 my-0 bg-white rounded col-10 row m-auto align-middle">
+          <h5 class="__color-blue __font-700">Get 24/7 Free Counsultation with Expert Counsellors</h5>
+          <!-- Email input -->
+          <div class="form-outline my-4 col-12 col-lg-4 m-auto">
+            <input type="text" id="form1Example1" class="form-control" />
+            <label class="form-label __font-700 __color-blue" for="form1Example1">Your Name</label>
+            <hr>
+          </div>
+          <!-- Password input -->
+          <div class="form-outline my-4 col-12 col-lg-4 m-auto">
+            <input type="email" id="form1Example2" class="form-control" />
+            <label class="form-label __font-700 __color-blue" for="form1Example2">Email</label>
+            <hr>
+          </div>
+          <!-- Submit button -->
+          <div class="col-12 col-sm-6 col-lg-3 p-0 my-4 m-auto">
+            <button type="submit" class="btn __color-background-red btn-block text-white __font-400">Get Free Consulation</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  <!-- hero end -->
+
+  <!-- mid text start -->
+
+  <div class="container-fluid mt-5 pt-5">
+    <div class="container text-center align-middle my-5">
+      <h2>Eget sapien fames <span class="__color-orange">donec lectus eu,</span> magna<br>tempus risus. Consequat sed dictum vel quam.</h2>
+    </div>
+  </div>
+
+  <!-- mid text end -->
+
+  <!-- card start -->
+  <div class="container justify-content-center">
+    <div class="row d-flex justify-content-between">
+      <div class="card my-5 m-auto" style="width: 18rem;">
+        <div class="card-body">
+          <i class="fas fa-briefcase fa-3x __color-orange mb-3"></i>
+          <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card my-5 m-auto" style="width: 18rem;">
+        <div class="card-body">
+          <i class="fas fa-briefcase fa-3x __color-orange mb-3"></i>
+          <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card my-5 m-auto" style="width: 18rem;">
+        <div class="card-body">
+          <i class="fas fa-briefcase fa-3x __color-orange mb-3"></i>
+          <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  <!-- card end -->
+
+  <!-- hero 2 start -->
+
+  <div class="container-fluid p-0">
+      <div class="d-flex justify-content-start __90vh">
+        <img src="images\homeblob2.png" class="rounded float-rignt img-fluid __bg-image flex-column bg-white position-image2" alt="..." height="100%">
+        <div class="container d-flex align-items-center">
+          <div class="row d-flex justify-content-end">
+            <div class="col-12 col-lg-6">
+              <div class="jumbotron jumbotron-fluid">
+                <div class="__roboto-font align-middle">
+                  <h1 class=" __color-blue __font-700 __text-40px">Serving Your Future Through Education</h1>
+                  <p class="lead __color-lightblue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue commodo, donec posuere in. Praesent ante facilisis tellus blandit. Sed mi sagittis libero nulla nec, elit vulputate donec. Ullamcorper bibendum volutpat id nec non sed. Maecenas commodo tempor a turpis.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- hero 2 end -->
+
   <!-- Fast Fact Section Start -->
   <?php require 'php/fast-facts.php'; ?>
   <!-- Fast Fact Section Ends -->
