@@ -4,6 +4,7 @@
   --blue: #333B69;
   --red: #BE0000;
   --lightblue: #6A798C;
+  --footerblue: #F2F4FF;
   --orange: #FA6262;
 }
 
@@ -142,6 +143,12 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 .__color-background-red{
   background-color: var(--red) !important;
+}
+.__color-background-orange{
+  background-color: var(--orange) !important;
+}
+.__color-background-footerblue{
+  background-color: var(--footerblue) !important;
 }
 
 /* ------------------------------------------------------ */
@@ -320,10 +327,19 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   z-index: -1;}
 
 .__90vh{
-  height: 70vh;
+  height: 75vh;
 }
 .navbar {
   box-shadow: none !important; }
 .position-image2{
   transform: translate(0px,-30vh);
+}
+.hover-effect{
+  padding-top: 5px;
+}
+
+.hover-effect:hover {
+  border-top: 5px solid var(--blue);
+  padding-top: 1px;
+  transition: .5s;
 }

@@ -59,29 +59,29 @@
   <!-- card start -->
   <div class="container justify-content-center">
     <div class="row d-flex justify-content-between">
-      <div class="card my-5 m-auto" style="width: 18rem;">
+      <div class="card my-5 m-auto" style="width: 20rem;">
         <div class="card-body">
           <i class="fas fa-briefcase fa-3x __color-orange mb-3"></i>
           <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h6 class="card-text __color-lightblue __font-400">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
         </div>
       </div>
-      <div class="card my-5 m-auto" style="width: 18rem;">
+      <div class="card my-5 m-auto" style="width: 20rem;">
         <div class="card-body">
           <i class="fas fa-briefcase fa-3x __color-orange mb-3"></i>
           <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h6 class="card-text __color-lightblue __font-400">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
         </div>
       </div>
-      <div class="card my-5 m-auto" style="width: 18rem;">
+      <div class="card my-5 m-auto" style="width: 20rem;">
         <div class="card-body">
           <i class="fas fa-briefcase fa-3x __color-orange mb-3"></i>
           <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h6 class="card-text __color-lightblue __font-400">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
         </div>
       </div>
     </div>
-    </div>
+  </div>
 
   <!-- card end -->
 
@@ -94,7 +94,7 @@
           <div class="row d-flex justify-content-end">
             <div class="col-12 col-lg-6">
               <div class="jumbotron jumbotron-fluid">
-                <div class="__roboto-font align-middle">
+                <div class="__roboto-font align-middle mt-5">
                   <h1 class=" __color-blue __font-700 __text-40px">Serving Your Future Through Education</h1>
                   <p class="lead __color-lightblue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue commodo, donec posuere in. Praesent ante facilisis tellus blandit. Sed mi sagittis libero nulla nec, elit vulputate donec. Ullamcorper bibendum volutpat id nec non sed. Maecenas commodo tempor a turpis.</p>
                 </div>

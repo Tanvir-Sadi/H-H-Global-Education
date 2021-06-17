@@ -1,4 +1,4 @@
-<footer class="bg-light">
+<footer class="__color-background-footerblue">
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-sm-12 col-md-4 my-5">
@@ -82,6 +82,25 @@
             <button class="btn __custom-gradient text-light col-2 px-3 py-2">Submit</button>
           </form>
         </div> -->
+        <div class="d-flex justify-content-center">
+          <form class="my-lg-5 my-0 rounded col-10 row d-flex justify-content-end">
+            <!-- Email input -->
+            <div class="form-outline mt-4 col-12 text-end">
+              <h6 class="__color-blue __font-700">Subscribe for Newsletter</h6>
+            </div>
+            <!-- Password input -->
+            <div class="form-outline mb-4 col-12 m-auto">
+              <input type="email" id="form1Example2" class="form-control" />
+              <label class="form-label __font-700 __color-blue" for="form1Example2">Email</label>
+              <hr>
+            </div>
+            <!-- Submit button -->
+            <div class="col-12 col-sm-6 col-lg-3 p-0 my-4 ">
+              <button type="submit" class="btn __color-background-red btn-block text-white __font-400">Subscribe</button>
+            </div>
+          </form>
+        </div>
+
         </div>
       </div>
     </div>
