@@ -10,7 +10,7 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white align-center">
       <div class="container-fluid d-flex justify-content-between">
-        <a class="justify-content-center align-self-center" href="#">
+        <a class="justify-content-center align-self-center" href="../hhglobaledu">
           <img src="images\HANDHLOGO.png" class="rounded float-left" alt="...">
           <span class="__color-blue __font-700 __roboto-font align-middle">H&H Global Education</span>
         </a>
@@ -22,13 +22,13 @@
         <div class="justify-content-center collapse navbar-collapse align-self-center" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 __font-700 __roboto-font">
             <li class="nav-item">
-              <a class="nav-link active __color-blue" aria-current="page" href="#">Home</a>
+              <a class="nav-link __color-blue active" aria-current="page" href="../hhglobaledu">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active __color-blue" aria-current="page" href="#">About</a>
+              <a class="nav-link __color-blue" aria-current="page" href="../hhglobaledu/about.php">About</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle __color-blue" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle __color-blue" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 UK Study
               </a>
               <ul class="dropdown-menu __color-background-blue text-white" aria-labelledby="navbarDropdown">
@@ -64,10 +64,10 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link active __color-blue" aria-current="page" href="#">Branches</a>
+              <a class="nav-link __color-blue" aria-current="page" href="../hhglobaledu/global-branches.php">Branches</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active __color-blue" aria-current="page" href="#">Events</a>
+              <a class="nav-link __color-blue" aria-current="page" href="#">Events</a>
             </li>
           </ul>
         </div>
