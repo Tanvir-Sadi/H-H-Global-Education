@@ -22,52 +22,52 @@
         <div class="justify-content-center collapse navbar-collapse align-self-center" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 __font-700 __roboto-font">
             <li class="nav-item">
-              <a class="nav-link __color-blue active" aria-current="page" href="../hhglobaledu">Home</a>
+              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="../hhglobaledu">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link __color-blue" aria-current="page" href="../hhglobaledu/about.php">About</a>
+              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="../hhglobaledu/about.php">About</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle __color-blue" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link __color-blue navbar-hover-effect" href="uk-study.php" id="navbarDropdown" role="button" aria-expanded="false">
                 UK Study
               </a>
-              <ul class="dropdown-menu __color-background-blue text-white" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item text-white" href="#">Courses</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item text-white" href="#">UK University</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item text-white" href="#">Global University</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item text-white" href="#">Application Process</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item text-white" href="#">Scholarship</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item text-white" href="#">Help & Support</a></li>
+              <ul class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Courses</a></li>
+
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">UK University</a></li>
+
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Global University</a></li>
+
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Application Process</a></li>
+
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Scholarship</a></li>
+
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Help & Support</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle __color-blue" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link __color-blue navbar-hover-effect" href="services.php" id="navbarDropdown" role="button" aria-expanded="false">
                 Services
               </a>
-              <ul class="dropdown-menu __color-background-blue text-white" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item text-white" href="#">Student Bank Accounts</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item text-white" href="#">Free Assessment</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item text-white" href="#">Visa Services</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item text-white" href="#">Airport Pickup</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item text-white" href="#">Accomodation Support</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item text-white" href="#">Student Travel Card</a></li>
+              <ul class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Student Bank Accounts</a></li>
+
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Free Assessment</a></li>
+
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Visa Services</a></li>
+
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Airport Pickup</a></li>
+
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Accomodation Support</a></li>
+
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Student Travel Card</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link __color-blue" aria-current="page" href="../hhglobaledu/global-branches.php">Branches</a>
+              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="../hhglobaledu/global-branches.php">Branches</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link __color-blue" aria-current="page" href="#">Events</a>
+              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="#">Events</a>
             </li>
           </ul>
         </div>
