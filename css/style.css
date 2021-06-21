@@ -267,6 +267,17 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   /* grid-row: 6 / span 3; */
 }
 
+.gallery__item--9 {
+  grid-column-start: 6;
+      grid-column-end: 7;
+      grid-row-start: 3;
+      grid-row-end: 4;
+
+  /** Alternative Syntax **/
+  /* grid-column: 5 / span 4; */
+  /* grid-row: 6 / span 3; */
+}
+
 .gallery__item--7 {
   grid-column-start: 1;
     grid-column-end: 3;
@@ -334,6 +345,27 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .position-image2{
   transform: translate(0px,-30vh);
 }
+
+/* ---------------------------------------------------- */
+
+/* Global Branches */
+
+.branches .nav-link{
+  color: var(--red);
+  margin-bottom: -1px;
+  background: 0 0;
+  border: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    font-weight: bold;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+/* ---------------------------------------------------- */
+=======
 .hover-effect{
   padding-top: 5px;
 }

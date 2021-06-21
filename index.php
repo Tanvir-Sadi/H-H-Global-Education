@@ -22,7 +22,7 @@
             </div>
           </div>
         </div>
-        <form class="shadow p-3 my-lg-5 my-0 bg-white rounded col-10 row m-auto align-middle">
+        <form class="shadow p-5 my-lg-5 my-0 bg-white rounded col-10 row m-auto align-middle">
           <h5 class="__color-blue __font-700">Get 24/7 Free Counsultation with Expert Counsellors</h5>
           <!-- Email input -->
           <div class="form-outline my-4 col-12 col-lg-4 m-auto">
@@ -37,8 +37,8 @@
             <hr>
           </div>
           <!-- Submit button -->
-          <div class="col-12 col-sm-6 col-lg-3 p-0 my-4 m-auto">
-            <button type="submit" class="btn __color-background-red btn-block text-white __font-400">Get Free Consulation</button>
+          <div class="col-12 col-sm-6 col-lg-3  my-4 m-auto">
+            <button type="submit" class="btn __color-background-red btn-block text-white __font-400 p-2">Get Free Consulation</button>
           </div>
         </form>
       </div>
@@ -97,6 +97,7 @@
                 <div class="__roboto-font align-middle mt-5">
                   <h1 class=" __color-blue __font-700 __text-40px">Serving Your Future Through Education</h1>
                   <p class="lead __color-lightblue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue commodo, donec posuere in. Praesent ante facilisis tellus blandit. Sed mi sagittis libero nulla nec, elit vulputate donec. Ullamcorper bibendum volutpat id nec non sed. Maecenas commodo tempor a turpis.</p>
+                  <a class="col-3 btn __color-background-red btn-block text-white __font-400 p-2 my-4" href="../hhglobaledu/about.php" role="button">About Us<i class="ms-2 fas fa-chevron-right"></i></a>
                 </div>
               </div>
             </div>

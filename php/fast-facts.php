@@ -24,6 +24,9 @@
           <figure class="m-0 gallery__item gallery__item--6">
             <img src="img\featured-logo\lsc.jpg" alt="Gallery image 6" class="gallery__img">
           </figure>
+          <figure class="m-0 gallery__item gallery__item--9">
+            <img src="img\featured-logo\lsc.jpg" alt="Gallery image 6" class="gallery__img">
+          </figure>
           <figure class="m-0 gallery__item gallery__item--7">
             <img src="img\featured-logo\kingston.jpg" alt="Gallery image 6" class="gallery__img">
           </figure>
