@@ -375,3 +375,17 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   padding-top: 1px;
   transition: .5s;
 }
+.navbar-hover-effect:hover{
+  transition: 1s;
+  color: var(--red) !important;
+}
+.dropdown-item{
+  border: 0;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropdown-item-hover:hover{
+  background-color: white;
+  color: var(--orange) !important;
+}
