@@ -16,13 +16,13 @@
           <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Pakistan Branches</button>
         </div>
 
-        <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-content container-fluid" id="v-pills-tabContent">
           <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
             <div class="row">
               <div class="col">
 
                 <div class="card">
-                  <div class="ratio ratio-16x9">
+                  <div class="ratio ratio-21x9">
                     <!-- <iframe class="embed-responsive-item" src="..."></iframe> -->
                     <iframe class="embed-responsive-item w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.7507039155976!2d-0.06914168392494212!3d51.51778947963691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761db645d424eb%3A0xb8571a7a4c608efe!2sH%26H%20Global%20Education%20Ltd!5e0!3m2!1sen!2sbd!4v1623323707095!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                   </div>
@@ -60,7 +60,7 @@
               <div class="col">
 
                 <div class="card">
-                  <div class="ratio ratio-16x9">
+                  <div class="ratio ratio-21x9">
                     <iframe class="embed-responsive-item w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.6926910755155!2d90.41661071543078!3d23.829524484550504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7573aea49e9%3A0xcae49ae3fba70348!2sH%26H%20Global%20Education%2C%20Bangladesh!5e0!3m2!1sen!2sbd!4v1623921813439!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                   </div>
                   <div class="card-body">
@@ -97,7 +97,7 @@
               <div class="col">
 
                 <div class="card">
-                  <div class="ratio ratio-16x9">
+                  <div class="ratio ratio-21x9">
                     <!-- <iframe class="embed-responsive-item" src="..."></iframe> -->
                     <iframe class="embed-responsive-item w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.92131331613!2d72.52234421541849!3d23.026661184951045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85a789f709f3%3A0x247b137594876fa5!2sIscon%20Emporio!5e0!3m2!1sen!2sbd!4v1620469331193!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                   </div>
@@ -134,7 +134,7 @@
               <div class="col">
 
                 <div class="card">
-                  <div class="ratio ratio-16x9">
+                  <div class="ratio ratio-21x9">
                     <!-- <iframe class="embed-responsive-item" src="..."></iframe> -->
                     <iframe class="embed-responsive-item w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212645.5223823963!2d72.94602479881617!3d33.61603729879734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sIslamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2sbd!4v1620469379627!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                   </div>
