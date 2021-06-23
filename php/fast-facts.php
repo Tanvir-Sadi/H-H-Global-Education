@@ -38,33 +38,33 @@
 
       <div class="col-sm-12 col-md-6 my-5">
         <h1 class="text-center text-white">Fast Facts</h1>
-        <p class="text-center text-white">Sollicitudin integer amet, pellentesque viverra. Aliquam at purus vel imperdiet. Ullamcorper scelerisque risus nunc tincidunt at risus, facilisi libero. Porttitor rutrum faucibus.</p>
-        <div class="row justify-content-center">
-          <div class="col-2 p-2 m-2">
-            <h4 class="mb-0 text-white">5000+</h4>
+        <p class="text-center text-white">H&H Global Education always provide high quality counselling supports with fully trasparent procedure ensuring 100% customer satisfaction.</p>
+        <div class="row justify-content-center g-3">
+          <div class="col-3">
+            <h4 class="mb-0 text-white">1000+</h4>
             <p class="text-white">Students</p>
           </div>
-          <div class="col-2 p-2 m-2">
-            <h4 class="mb-0 text-white">5000+</h4>
-            <p class="text-white">Students</p>
+          <div class="col-3">
+            <h4 class="mb-0 text-white">50+</h4>
+            <p class="text-white">Partner institute</p>
           </div>
-          <div class="col-2 p-2 m-2">
-            <h4 class="mb-0 text-white">5000+</h4>
-            <p class="text-white">Students</p>
+          <div class="col-3">
+            <h4 class="mb-0 text-white">100+</h4>
+            <p class="text-white">Recruitement Agents</p>
           </div>
-          <div class="col-2 p-2 m-2">
-            <h4 class="mb-0 text-white">5000+</h4>
-            <p class="text-white">Students</p>
+          <div class="col-3">
+            <h4 class="mb-0 text-white">10,000+</h4>
+            <p class="text-white">Offered Courses</p>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-2 p-2 m-2">
-            <h4 class="mb-0 text-white">5000+</h4>
-            <p class="text-white">Students</p>
+          <div class="col-3">
+            <h4 class="mb-0 text-white">50+</h4>
+            <p class="text-white">Virtual Events</p>
           </div>
-          <div class="col-2 p-2 m-2">
-            <h4 class="mb-0 text-white">5000+</h4>
-            <p class="text-white">Students</p>
+          <div class="col-3">
+            <h4 class="mb-0 text-white">5+</h4>
+            <p class="text-white">Global Branches</p>
           </div>
         </div>
       </div>
