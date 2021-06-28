@@ -5,12 +5,31 @@
 <body>
   <?php require 'php/navbar.php'; ?>
 
+  <!-- hero start -->
+
+  <div class="container-fluid __color-background-footerblue py-5">
+      <div class="container">
+        <div class="row d-sm-block">
+          <div class="col-12 col-lg-6 clear-right">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="my-5 py-5 __roboto-font">
+                <h1 class=" __color-blue __font-700 __text-40px">UK Study</h1>
+                <p class="lead __color-lightblue">H&H Global is an Education Consultancy firm based in London, The UK. We provide information to prospective students regarding their aspired courses.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- hero end -->
+
   <!-- About-Card starts -->
 
   <div class="about">
     <div class="container my-5">
 
-      <h1 class="mb-1 col-6">Serving Your Future Through Education</h1>
+      <h2 class="mb-1 col-6">Serving Your Future Through Education</h2>
       <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue commodo, donec posuere in. Praesent ante facilisis tellus blandit. Sed mi sagittis libero nulla nec, elit vulputate donec. Ullamcorper bibendum volutpat id nec non sed. Maecenas commodo tempor a turpis.</p>
 
       <div class="row g-2 g-lg-5">

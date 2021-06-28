@@ -13,16 +13,16 @@
        viewBox="0 0 600 480" style="enable-background:new 0 0 600 480;" xml:space="preserve" class="triangle-img triangle-img--align-right">
       <g>
         <path class="st0" d="M232.16,108.54,76.5,357.6C43.2,410.88,81.5,480,144.34,480H455.66c62.83,0,101.14-69.12,67.84-122.4L367.84,108.54C336.51,58.41,263.49,58.41,232.16,108.54Z" fill="url(#img1)" />
-        <path class="st0" d="M232.16,108.54,76.5,357.6C43.2,410.88,81.5,480,144.34,480H455.66c62.83,0,101.14-69.12,67.84-122.4L367.84,108.54C336.51,58.41,263.49,58.41,232.16,108.54Z" fill="url(#triangle-gradient)" fill-opacity="0.7" />
+        <path class="st0" d="M232.16,108.54,76.5,357.6C43.2,410.88,81.5,480,144.34,480H455.66c62.83,0,101.14-69.12,67.84-122.4L367.84,108.54C336.51,58.41,263.49,58.41,232.16,108.54Z" fill="url(#triangle-gradient)" fill-opacity="0.6" />
       </g>
       <defs>
         <pattern id="img1" patternUnits="userSpaceOnUse" width="500" height="500">
-          <!-- <image xlink:href="img\fastfacts.jpg" x="50" y="70" width="500" height="500"></image> -->
+          <image xlink:href="https://source.unsplash.com/random/800x800/?student,person" x="50" y="70" width="500" height="500"></image>
         </pattern>
 
         <linearGradient id="triangle-gradient" y2="100%" x2="0" y1="50%" gradientUnits="userSpaceOnUse" >
-        <stop offset="0" stop-color="#4C86E7"/>
-        <stop offset="1" stop-color="#B939E5"/>
+        <stop offset="0" stop-color="#FA6262"/>
+        <stop offset="1" stop-color="#6A798C"/>
         </linearGradient>
       </defs>
     </svg>
@@ -97,28 +97,28 @@
     <div class="container justify-content-center">
       <div class="row d-flex justify-content-between">
         <div class="col-lg-4">
-          <div class="card my-5 m-auto">
+          <div class="card my-2 my-lg-5 p-3 m-auto">
             <div class="card-body">
-              <i class="fas fa-briefcase fa-3x __color-orange mb-3"></i>
-              <h6 class="card-title">24/7 FREE Counsellingt</h6>
+              <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
+              <h6 class="card-title">24/7 FREE Counselling</h6>
               <h6 class="card-text __color-lightblue __font-400">Always find our dedicated counsellors to help you 24/7</h6>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
 
-          <div class="card my-5 m-auto">
+          <div class="card my-2 my-lg-5 p-3 m-auto">
             <div class="card-body">
-              <i class="fas fa-briefcase fa-3x __color-orange mb-3"></i>
+              <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
               <h6 class="card-title">Free Assessment</h6>
               <h6 class="card-text __color-lightblue __font-400">Get free assessment to evaluate you and find the perfect institute and courses.</h6>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="card my-5 m-auto">
+          <div class="card my-2 my-lg-5 p-3 m-auto">
             <div class="card-body">
-              <i class="fas fa-briefcase fa-3x __color-orange mb-3"></i>
+              <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
               <h6 class="card-title">Visa Services</h6>
               <h6 class="card-text __color-lightblue __font-400">Visa processing services to the selected countries where our affiliated institutes are located.</h6>
             </div>
@@ -132,7 +132,7 @@
 
   <!-- hero 2 start -->
 
-  <div class="container-fluid p-0">
+  <div class="about container-fluid p-0">
       <div class="position-relative my-5 pb-lg-5">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 600 480" style="enable-background:new 0 0 600 480;" xml:space="preserve" class="triangle-img triangle-img--align-left">
           <g>
@@ -140,7 +140,7 @@
           </g>
           <defs>
             <pattern id="img2" patternUnits="userSpaceOnUse" width="600" height="600">
-              <image xlink:href="img\fastfacts.jpg" width="600" height="600"></image>
+              <image xlink:href="https://source.unsplash.com/random/800x800/?university,tour,corporate" width="600" height="600"></image>
             </pattern>
           </defs>
         </svg>
