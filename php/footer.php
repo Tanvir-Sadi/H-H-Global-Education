@@ -72,21 +72,22 @@
           </div>
         </div>
 
-        <div class="d-flex justify-content-center">
-          <form class="my-lg-5 my-0 rounded col-10 row d-flex justify-content-end">
-            <!-- Email input -->
-            <div class="form-outline mt-4 col-12 text-end">
-              <h6 class="__color-blue __font-700">Subscribe for Newsletter</h6>
-            </div>
-            <!-- Password input -->
-            <div class="form-outline mb-4 col-12 m-auto">
-              <input type="email" id="form1Example2" class="form-control" />
-              <label class="form-label __font-700 __color-blue" for="form1Example2">Email</label>
-              <hr>
-            </div>
-            <!-- Submit button -->
-            <div class="col-12 col-sm-6 col-lg-3 p-0 my-2 ">
-              <button type="submit" class="btn __color-background-red btn-block text-white __font-400">Subscribe</button>
+        <div class="">
+          <form class="row g-3" action="index.html" method="post">
+            <h6 class="text-end mb-n1">Subscribe for Newsletter</h6>
+
+              <div class="col-lg-9">
+                <div class="__form-group">
+                  <input type="text" name="name" autocomplete="off" required>
+                  <label for="name" class="__lebel-name __color-background-footerblue">
+                    <span class="__content-name">Email</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-lg-3 align-self-end ml-auto">
+                <button type="button" class="btn btn-danger container-fluid p-2">Subscribe</button>
+              </div>
             </div>
           </form>
         </div>
