@@ -516,3 +516,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .__form-group input:focus + .__lebel-name::after, .__form-group input:valid + .__lebel-name::after{
   transform: translateX(0%);
 }
+
+.__min-w-u{
+  min-width: 230px;
+}
