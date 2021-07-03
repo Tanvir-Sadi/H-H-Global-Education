@@ -26,51 +26,31 @@
 
       <div class="container justify-content-center">
         <div class="row d-flex justify-content-between">
-          <div class="card my-lg-5 my-md-4 my-1 m-auto col-lg-3 col-10 hover-effect">
-            <div class="card-body">
-              <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
-              <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
-              <h6 class="card-text __color-lightblue __font-400">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
+          <div class="col-lg-4">
+            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
+              <div class="card-body">
+                <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
+                <h6 class="card-title">Student Bank Accounts</h6>
+                <h6 class="card-text __color-lightblue __font-400">To make adjustments with the United Kingdom’s social-economic life you may require opening a bank account with a regulatory financial institute.</h6>
+              </div>
             </div>
           </div>
-          <div class="card my-lg-5 my-md-4 my-1 m-auto col-lg-3 col-10 hover-effect">
-            <div class="card-body">
-              <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
-              <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
-              <h6 class="card-text __color-lightblue __font-400">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
+          <div class="col-lg-4">
+            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
+              <div class="card-body">
+                <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
+                <h6 class="card-title">Free Assessment</h6>
+                <h6 class="card-text __color-lightblue __font-400">We offer a free assessment program to evaluate you and find the perfect institute and course according to your needs.</h6>
+              </div>
             </div>
           </div>
-          <div class="card my-lg-5 my-md-4 my-1 m-auto col-lg-3 col-10 hover-effect">
-            <div class="card-body">
-              <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
-              <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
-              <h6 class="card-text __color-lightblue __font-400">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container justify-content-center">
-        <div class="row d-flex justify-content-between">
-          <div class="card my-lg-5 my-md-4 my-1 m-auto col-lg-3 col-10 hover-effect">
-            <div class="card-body">
-              <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
-              <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
-              <h6 class="card-text __color-lightblue __font-400">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
-            </div>
-          </div>
-          <div class="card my-lg-5 my-md-4 my-1 m-auto col-lg-3 col-10 hover-effect">
-            <div class="card-body">
-              <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
-              <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
-              <h6 class="card-text __color-lightblue __font-400">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
-            </div>
-          </div>
-          <div class="card my-lg-5 my-md-4 my-1 m-auto col-lg-3 col-10 hover-effect">
-            <div class="card-body">
-              <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
-              <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
-              <h6 class="card-text __color-lightblue __font-400">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
+          <div class="col-lg-4">
+            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
+              <div class="card-body">
+                <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
+                <h6 class="card-title">VISA service</h6>
+                <h6 class="card-text __color-lightblue __font-400">We offer the fastest ever visa processing to the selected countries where affiliated institutes are located.</h6>
+              </div>
             </div>
           </div>
         </div>
@@ -78,25 +58,31 @@
 
       <div class="container justify-content-center">
         <div class="row d-flex justify-content-between">
-          <div class="card my-lg-5 my-md-4 my-1 m-auto col-lg-3 col-10 hover-effect">
-            <div class="card-body">
-              <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
-              <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
-              <h6 class="card-text __color-lightblue __font-400">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
+          <div class="col-lg-4">
+            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
+              <div class="card-body">
+                <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
+                <h6 class="card-title">Airport Pickup</h6>
+                <h6 class="card-text __color-lightblue __font-400">As an agent, we will be proud to direct you to your sponsor college. If you are flying to the United Kingdom and you need airport pick up, please contact us at least 48 hours before.</h6>
+              </div>
             </div>
           </div>
-          <div class="card my-lg-5 my-md-4 my-1 m-auto col-lg-3 col-10 hover-effect">
-            <div class="card-body">
-              <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
-              <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
-              <h6 class="card-text __color-lightblue __font-400">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
+          <div class="col-lg-4">
+            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
+              <div class="card-body">
+                <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
+                <h6 class="card-title">Accommodation Support</h6>
+                <h6 class="card-text __color-lightblue __font-400">If you need accommodation support please contact at least 2 weeks before your arrival.</h6>
+              </div>
             </div>
           </div>
-          <div class="card my-lg-5 my-md-4 my-1 m-auto col-lg-3 col-10 hover-effect">
-            <div class="card-body">
-              <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
-              <h6 class="card-title">Lorem ipsum dolor sit amet</h6>
-              <h6 class="card-text __color-lightblue __font-400">Some quick example text to build on the card title and make up the bulk of the card's content.</h6>
+          <div class="col-lg-4">
+            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
+              <div class="card-body">
+                <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
+                <h6 class="card-title">Student Travel Card</h6>
+                <h6 class="card-text __color-lightblue __font-400">If you are a student in the United Kingdom you would receive a 30% discount on your Journey subject to have a validated student Oyster card.</h6>
+              </div>
             </div>
           </div>
         </div>

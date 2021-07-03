@@ -389,15 +389,6 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /* ---------------------------------------------------- */
 =======
-.hover-effect{
-  padding-top: 5px;
-}
-
-.hover-effect:hover {
-  border-top: 5px solid var(--blue);
-  padding-top: 1px;
-  transition: .5s;
-}
 .navbar-hover-effect:hover{
   transition: 1s;
   color: var(--red) !important;
@@ -515,6 +506,23 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 .__form-group input:focus + .__lebel-name::after, .__form-group input:valid + .__lebel-name::after{
   transform: translateX(0%);
+}
+
+.__orange-hover-border:before {
+	content: '';
+	display: block;
+	height: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+	width: 0;
+	transition: all 0.5s ease-in-out;
+  background-color: var(--orange);
+}
+
+.__orange-hover-border:hover:before {
+	width: 100%;
+  border-radius: .25rem
 }
 
 .__min-w-u{
