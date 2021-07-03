@@ -508,7 +508,6 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   transform: translateX(0%);
 }
 
-
 .__orange-hover-border:before {
 	content: '';
 	display: block;
@@ -524,4 +523,8 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .__orange-hover-border:hover:before {
 	width: 100%;
   border-radius: .25rem
+}
+
+.__min-w-u{
+  min-width: 230px;
 }

@@ -78,8 +78,8 @@
 
               <div class="col-lg-9">
                 <div class="__form-group">
-                  <input type="text" name="name" autocomplete="off" required>
-                  <label for="name" class="__lebel-name __color-background-footerblue">
+                  <input class=" __color-background-footerblue"type="text" name="name" autocomplete="off" required>
+                  <label for="name" class="__lebel-name">
                     <span class="__content-name">Email</span>
                   </label>
                 </div>

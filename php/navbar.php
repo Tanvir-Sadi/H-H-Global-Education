@@ -34,7 +34,7 @@
               <ul class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Courses</a></li>
 
-                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">UK University</a></li>
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="../hhglobaledu/university-lists.php">UK University</a></li>
 
                 <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Global University</a></li>
 
