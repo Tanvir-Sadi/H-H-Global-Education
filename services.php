@@ -27,7 +27,7 @@
       <div class="container justify-content-center">
         <div class="row d-flex justify-content-between">
           <div class="col-lg-4">
-            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
+            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border" id="bank_account">
               <div class="card-body">
                 <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
                 <h6 class="card-title">Student Bank Accounts</h6>
@@ -36,7 +36,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
+            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border" id="assessment">
               <div class="card-body">
                 <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
                 <h6 class="card-title">Free Assessment</h6>
@@ -45,7 +45,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
+            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border" id="visa_service">
               <div class="card-body">
                 <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
                 <h6 class="card-title">VISA service</h6>
@@ -59,7 +59,7 @@
       <div class="container justify-content-center">
         <div class="row d-flex justify-content-between">
           <div class="col-lg-4">
-            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
+            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border" id="airport_pickup">
               <div class="card-body">
                 <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
                 <h6 class="card-title">Airport Pickup</h6>
@@ -68,7 +68,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
+            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border" id="accomodation_support">
               <div class="card-body">
                 <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
                 <h6 class="card-title">Accommodation Support</h6>
@@ -77,7 +77,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
+            <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border" id="travel_card">
               <div class="card-body">
                 <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
                 <h6 class="card-title">Student Travel Card</h6>

@@ -1,10 +1,10 @@
-<nav class="navbar flex-column __color-background-blue">
+<!-- <nav class="navbar flex-column __color-background-blue">
   <span class="d-flex align-items-start text-center text-white __roboto-font align-self-center">
     <p class="p-2 text-white flex-grow-1 bd-highlight mb-0 align-self-center">We are using cookies to personalize content and ads to make our site easier for you to use</p>
     <a class="align-self-center p-2 bd-highlight __color-red __font-700" href="#">learn more</a>
     <button type="button" class="align-self-center btn text-white __color-background-red m-2">Confirm</button>
   </span>
-</nav>
+</nav> -->
 
 <div class="container-fluid sticky-top bg-white">
   <div class="container">
@@ -27,6 +27,13 @@
             <li class="nav-item">
               <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="../hhglobaledu/about.php">About</a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link __color-blue navbar-hover-effect position-relative" aria-current="page" href="../hhglobaledu/handhworldwide.php">
+                H&H Worldwide
+              </a>
+            </li>
+
             <li class="nav-item dropdown">
               <a class="nav-link __color-blue navbar-hover-effect" href="uk-study.php" id="navbarDropdown" role="button" aria-expanded="false">
                 UK Study
@@ -35,8 +42,6 @@
                 <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Courses</a></li>
 
                 <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="../hhglobaledu/university-lists.php">UK University</a></li>
-
-                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Global University</a></li>
 
                 <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Application Process</a></li>
 
@@ -67,7 +72,7 @@
               <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="../hhglobaledu/global-branches.php">Branches</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="#">Events</a>
+              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="/hhglobaledu/registration-form.php">Registration</a>
             </li>
           </ul>
         </div>

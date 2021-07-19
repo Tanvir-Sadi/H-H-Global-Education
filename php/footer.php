@@ -43,20 +43,18 @@
           <div class="col mb-3">
             <h6>Services</h6>
             <ul>
-              <li class="text-decoration-underline"><a href="#">Student Bank Accounts</a></li>
-              <li class="text-decoration-underline"><a href="#">Free Assessment</a></li>
-              <li class="text-decoration-underline"><a href="#">Visa Services</a></li>
-              <li class="text-decoration-underline"><a href="#">Airport Pickup</a></li>
-              <li class="text-decoration-underline"><a href="#">Student Travel Card</a></li>
-              <li class="text-decoration-underline"><a href="#">Branches</a></li>
-              <li class="text-decoration-underline"><a href="#">Events</a></li>
+              <li class="text-decoration-underline"><a href="services.php#bank_account">Student Bank Accounts</a></li>
+              <li class="text-decoration-underline"><a href="services.php#assessment">Free Assessment</a></li>
+              <li class="text-decoration-underline"><a href="services.php#visa_service">Visa Services</a></li>
+              <li class="text-decoration-underline"><a href="services.php#airport_pickup">Airport Pickup</a></li>
+              <li class="text-decoration-underline"><a href="services.php#travel_card">Student Travel Card</a></li>
             </ul>
           </div>
           <div class="col mb-3">
             <h6>UK Study</h6>
             <ul>
               <li class="text-decoration-underline"><a href="#">Courses</a></li>
-              <li class="text-decoration-underline"><a href="#">UK University</a></li>
+              <li class="text-decoration-underline"><a href="../hhglobaledu/university-lists.php">UK University</a></li>
               <li class="text-decoration-underline"><a href="#">Application Process</a></li>
               <li class="text-decoration-underline"><a href="#">Scholarship</a></li>
               <li class="text-decoration-underline"><a href="#">Help & Support</a></li>
@@ -65,7 +63,7 @@
           <div class="col mb-3">
             <h6>Quick Links</h6>
             <ul>
-              <li class="text-decoration-underline"><a href="#">About</a></li>
+              <li class="text-decoration-underline"><a href="../hhglobaledu/about.php">About</a></li>
               <li class="text-decoration-underline"><a href="#">Our Support</a></li>
               <li class="text-decoration-underline"><a href="#">Offices</a></li>
             </ul>
@@ -78,7 +76,7 @@
 
               <div class="col-lg-9">
                 <div class="__form-group">
-                  <input class=" __color-background-footerblue"type="text" name="name" autocomplete="off" required>
+                  <input class=" __color-background-footerblue"type="text" name="email" autocomplete="off" required placeholder= " "  >
                   <label for="name" class="__lebel-name">
                     <span class="__content-name">Email</span>
                   </label>
@@ -86,7 +84,7 @@
               </div>
 
               <div class="col-lg-3 align-self-end ml-auto">
-                <button type="button" class="btn btn-danger container-fluid p-2">Subscribe</button>
+                <button type="submit" class="btn btn-danger container-fluid p-2">Subscribe</button>
               </div>
             </div>
           </form>

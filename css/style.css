@@ -151,6 +151,23 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   background-color: var(--footerblue) !important;
 }
 
+.__register{
+  background-image: url("../img/image 2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+
+/* ------------------------------------------------------ */
+/* navbar */
+/* ------------------------------------------------------ */
+
+.__navbar{
+  box-shadow: 0px -8px 17px rgba(0, 0, 0, 0.15);
+}
+
 /* ------------------------------------------------------ */
 /* Servicescard */
 /* ------------------------------------------------------ */
@@ -160,7 +177,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   border: none;
   border-radius: 5px;
   box-shadow: 0px 12px 24px rgb(0 0 0 / 15%);
-  min-height: 265px;
+  min-height: 20rem;
 }
 
 /* ------------------------------------------------------ */
@@ -295,9 +312,9 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 .gallery__item--9 {
   grid-column-start: 6;
-      grid-column-end: 7;
-      grid-row-start: 3;
-      grid-row-end: 4;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4;
 
   /** Alternative Syntax **/
   /* grid-column: 5 / span 4; */
@@ -306,9 +323,9 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 .gallery__item--7 {
   grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 6;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
 
   /** Alternative Syntax **/
   /* grid-column: 5 / span 4; */
@@ -317,9 +334,9 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 .gallery__item--8 {
   grid-column-start: 3;
-    grid-column-end: 7;
-    grid-row-start: 4;
-    grid-row-end: 6;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 6;
 
   /** Alternative Syntax **/
   /* grid-column: 5 / span 4; */
@@ -388,7 +405,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 
 /* ---------------------------------------------------- */
-=======
+/* ======= */
 .navbar-hover-effect:hover{
   transition: 1s;
   color: var(--red) !important;
@@ -498,13 +515,13 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   transition: all 0.3s ease;
 }
 
-.__form-group input:focus + .__lebel-name .__content-name, .__form-group input:valid + .__lebel-name .__content-name{
+.__form-group input:focus + .__lebel-name .__content-name, .__form-group input:not(:placeholder-shown) + .__lebel-name .__content-name{
   transform: translateY(-150%);
   font-size: 14px;
   color: red;
 }
 
-.__form-group input:focus + .__lebel-name::after, .__form-group input:valid + .__lebel-name::after{
+.__form-group input:focus + .__lebel-name::after, .__form-group input:not(:placeholder-shown) + .__lebel-name::after{
   transform: translateX(0%);
 }
 
@@ -527,4 +544,19 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 .__min-w-u{
   min-width: 230px;
+}
+
+.student-step {
+    background-color: #D84655;
+    border-radius: 50px;
+    border: 1px solid #D84655;
+    padding: 20px;
+    width: 100px;
+}
+
+.student-step-1 {
+    background-image: url(../img/steps/step-1.svg);
+    background-size: contain;
+    height: 57px;
+    background-repeat: no-repeat;
 }

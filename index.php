@@ -17,7 +17,7 @@
       </g>
       <defs>
         <pattern id="img1" patternUnits="userSpaceOnUse" width="500" height="500">
-          <image xlink:href="https://source.unsplash.com/random/800x800/?student,person" x="50" y="70" width="500" height="500"></image>
+          <image xlink:href="img\hero.jpg" x="50" y="70" width="500" height="500"></image>
         </pattern>
 
         <linearGradient id="triangle-gradient" y2="100%" x2="0" y1="50%" gradientUnits="userSpaceOnUse" >
@@ -46,11 +46,11 @@
 
               <h4>Get 24/7 Free Counsultation with Expert Counsellors</h4>
 
-              <form class="" action="index.html" method="post">
+              <form class="" action="include/emails-sub.inc.php" method="post">
                 <div class="row align-items-baseline">
                   <div class="col-12 col-lg-4 my-2">
                     <div class="__form-group">
-                      <input type="text" name="name" autocomplete="off" required>
+                      <input type="text" name="name" autocomplete="off" placeholder = " " required>
                       <label for="name" class="__lebel-name">
                         <span class="__content-name">Name</span>
                       </label>
@@ -59,19 +59,24 @@
 
                   <div class="col-12 col-lg-4 mb-5 mb-lg-2">
                     <div class="__form-group">
-                      <input type="text" name="name" autocomplete="off" required>
-                      <label for="name" class="__lebel-name">
+                      <input type="email" name="email" autocomplete="off" placeholder = " " required>
+                      <label for="email" class="__lebel-name">
                         <span class="__content-name">Email</span>
                       </label>
                     </div>
                   </div>
 
                   <div class="col-12 col-lg-4">
-                    <button type="button" class="btn btn-danger container-fluid p-3">Get FREE Consultation</button>
+                    <button type="submit" class="btn btn-danger container-fluid p-3">Get FREE Consultation</button>
                   </div>
                 </div>
               </form>
-
+              <?php if(isset($_GET['s'])): ?>
+              <div class="alert alert-light alert-dismissible fade show my-3" role="alert">
+                Thank you for your response. We wil get back to you!
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+              <?php endif; ?>
             </div>
           </div>
         </div>
@@ -97,7 +102,7 @@
     <div class="container justify-content-center">
       <div class="row d-flex justify-content-between">
         <div class="col-lg-4">
-          <div class="card my-2 my-lg-5 p-3 m-auto">
+          <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
             <div class="card-body">
               <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
               <h6 class="card-title">24/7 FREE Counselling</h6>
@@ -107,7 +112,7 @@
         </div>
         <div class="col-lg-4">
 
-          <div class="card my-2 my-lg-5 p-3 m-auto">
+          <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
             <div class="card-body">
               <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
               <h6 class="card-title">Free Assessment</h6>
@@ -116,7 +121,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="card my-2 my-lg-5 p-3 m-auto">
+          <div class="card my-2 my-lg-5 p-3 m-auto __orange-hover-border">
             <div class="card-body">
               <i class="fas fa-briefcase fa-5x __color-orange mb-3"></i>
               <h6 class="card-title">Visa Services</h6>
@@ -140,7 +145,7 @@
           </g>
           <defs>
             <pattern id="img2" patternUnits="userSpaceOnUse" width="600" height="600">
-              <image xlink:href="https://source.unsplash.com/random/800x800/?university,tour,corporate" width="600" height="600"></image>
+              <image xlink:href="img\hero02.jpg" width="600" height="600"></image>
             </pattern>
           </defs>
         </svg>
@@ -176,7 +181,7 @@
         <div class="testimonial-card m-3 mb-5 m-md-5">
           <div class="card-body p-5">
             <div class="d-inline-flex align-items-center">
-              <img src="img\featured-logo\queens.jpg" alt="" class="testimonial__img me-3">
+              <img src="img\Asset 1.svg" alt="" class="testimonial__img me-3">
               <div class="">
                 <h5 class="__card-author">Raihan Masud</h5>
                 <h6 class="__card-subtitle mb-0">MSc Pharmaceutical Science, Kingston University, London</h6>
@@ -189,7 +194,7 @@
         <div class="testimonial-card m-3 mb-5 m-md-5">
           <div class="card-body p-5">
             <div class="d-inline-flex align-items-center">
-              <img src="img\featured-logo\queens.jpg" alt="" class="testimonial__img me-3">
+              <img src="img\Asset 2.svg" alt="" class="testimonial__img me-3">
               <div class="">
                 <h5 class="__card-author">Khushi Adhani</h5>
                 <h6 class="__card-subtitle mb-0">Mechanical Engineering, Liverpool John Moores University</h6>
@@ -199,10 +204,27 @@
           </div>
         </div>
 
+        <div class="testimonial-card m-3 mb-5 m-md-5">
+          <div class="card-body p-5">
+            <div class="d-inline-flex align-items-center">
+              <img src="img\Asset 3.svg" alt="" class="testimonial__img me-3">
+              <div class="">
+                <h5 class="__card-author">Dr. Asifuzzaman Rumon</h5>
+                <h6 class="__card-subtitle mb-0">MSc Course in Cardiology and Stroke, University of Hertfordshire</h6>
+              </div>
+            </div>
+            <p class="__card-text mt-4">I would like to thank H&H global education for their exceptional support in getting my uncoditional offer letter, making me prepared for my university credibility interview, getting my CAS letter from the university and providing me scholarship. Thank You H&H global education....</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
   <!-- Testimonials Ends -->
+
+  <!-- H&H Worldwide Project Starts -->
+
+  <!-- H&H Worldwide Project Ends -->
 
   <!-- Footer Starts -->
   <?php require 'php/footer.php'; ?>
