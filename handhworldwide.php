@@ -5,14 +5,14 @@
 <body>
   <?php require 'php/navbar.php'; ?>
 
-  <div class="container-fluid">
+  <div class="container-fluid" id="application-process">
     <div class="banner __color-background-footerblue py-5">
       <div class="container">
         <div class="row align-items-center">
           <div class="col">
             <h1 class=" __color-blue __font-700 __text-40px">H&H Worldwide - a software solution for Study Overseas</h1>
             <p class="lead __color-lightblue">Studying abroad has never been easier. Choose your courses from more than 2000 available programme all over the UK from one place. FREE!!!</p>
-            <a class="btn __color-background-red btn-block text-white __font-400 p-2 my-4" href="https://handhworldwide.com/" role="button">Visit Website<i class="ms-2 fas fa-chevron-right"></i></a>
+            <a class="btn btn-lg btn-outline-danger rounded-pill my-4" href="https://handhworldwide.com/" role="button">View More<i class="ms-2 fas fa-chevron-right"></i></a>
           </div>
           <div class="col d-none d-md-block">
             <img src="img\steps\banner-side.svg" alt="">

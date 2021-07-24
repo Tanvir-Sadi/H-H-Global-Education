@@ -59,9 +59,9 @@
 
                   <div class="col-12 col-lg-4 mb-5 mb-lg-2">
                     <div class="__form-group">
-                      <input type="email" name="email" autocomplete="off" placeholder = " " required>
-                      <label for="email" class="__lebel-name">
-                        <span class="__content-name">Email</span>
+                      <input type="number" name="number" autocomplete="off" placeholder = " " required>
+                      <label for="number" class="__lebel-name">
+                        <span class="__content-name">Phone Number</span>
                       </label>
                     </div>
                   </div>
@@ -156,7 +156,7 @@
                 <div class="__roboto-font align-middle mt-5">
                   <h1 class=" __color-blue __font-700 __text-40px">Welcome to H&H Global Education.</h1>
                   <p class="lead __color-lightblue">We provide information to prospective students regarding their aspired courses. We also promote Institutes and their classes to prospective students. Our dedicated associates are always ready to help our students as well as our partners, should they have any questions or concerns.</p>
-                  <a class="col-3 btn __color-background-red btn-block text-white __font-400 p-2 my-4" href="../hhglobaledu/about.php" role="button">About Us<i class="ms-2 fas fa-chevron-right"></i></a>
+                  <a class="btn btn-lg __color-background-red text-white __font-400 my-4" href="about" role="button">About Us<i class="ms-2 fas fa-chevron-right"></i></a>
                 </div>
               </div>
             </div>
@@ -175,7 +175,7 @@
   <div class="testimonial">
     <div class="container my-5 py-5">
       <h2 class="text-center __color-red mb-0">Satisfied Customers</h2>
-      <p class="text-center fw-bold mb-3.">Those who Loved Our Services</p>
+      <p class="text-center fw-bold mb-3.">Some happy thoughts from our students</p>
       <div class="owl-carousel">
 
         <div class="testimonial-card m-3 mb-5 m-md-5">
@@ -210,7 +210,7 @@
               <img src="img\Asset 3.svg" alt="" class="testimonial__img me-3">
               <div class="">
                 <h5 class="__card-author">Dr. Asifuzzaman Rumon</h5>
-                <h6 class="__card-subtitle mb-0">MSc Course in Cardiology and Stroke, University of Hertfordshire</h6>
+                <h6 class="__card-subtitle mb-0">MSc Cardiology and Stroke, University of Hertfordshire</h6>
               </div>
             </div>
             <p class="__card-text mt-4">I would like to thank H&H global education for their exceptional support in getting my uncoditional offer letter, making me prepared for my university credibility interview, getting my CAS letter from the university and providing me scholarship. Thank You H&H global education....</p>
@@ -222,9 +222,27 @@
   </div>
   <!-- Testimonials Ends -->
 
-  <!-- H&H Worldwide Project Starts -->
+  <!-- Testimonial Video Starts -->
+  <div class="__testimonial-video">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-sm-12 col-md-4 my-5">
+          <h3 class="text-center text-white">Hear More from Our Student</h3>
+          <p class="text-center text-white">Dr. Asifuzzaman Rumon completed MSc in Cardiology and Stroke. Here his overall Journey to United Kingdom and how H&H Global Education help him to from beggining to end.</p>
 
-  <!-- H&H Worldwide Project Ends -->
+        </div>
+
+        <!-- Photo Grid -->
+        <div class="col-sm-11 col-md-7 my-5">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/Q20jQ4AZI5Y?rel=0" title="YouTube video" allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Testimonial Video Ends -->
 
   <!-- Footer Starts -->
   <?php require 'php/footer.php'; ?>

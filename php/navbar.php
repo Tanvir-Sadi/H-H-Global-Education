@@ -6,11 +6,11 @@
   </span>
 </nav> -->
 
-<div class="container-fluid sticky-top bg-white">
+<div class="__navigation container-fluid sticky-top bg-light">
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white align-center">
+    <nav class="navbar navbar-expand-lg navbar-light align-center">
       <div class="container-fluid d-flex justify-content-between">
-        <a class="justify-content-center align-self-center" href="../hhglobaledu">
+        <a class="justify-content-center align-self-center" href="../">
           <img src="images\HANDHLOGO.png" class="rounded float-left" alt="...">
           <span class="__color-blue __font-700 __roboto-font align-middle">H&H Global Education</span>
         </a>
@@ -22,26 +22,26 @@
         <div class="justify-content-center collapse navbar-collapse align-self-center" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 __font-700 __roboto-font">
             <li class="nav-item">
-              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="../hhglobaledu">Home</a>
+              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="..">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="../hhglobaledu/about.php">About</a>
+              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="about">About</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link __color-blue navbar-hover-effect position-relative" aria-current="page" href="../hhglobaledu/handhworldwide.php">
+              <a class="nav-link __color-blue navbar-hover-effect position-relative" aria-current="page" href="handhworldwide">
                 H&H Worldwide
               </a>
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link __color-blue navbar-hover-effect" href="uk-study.php" id="navbarDropdown" role="button" aria-expanded="false">
+              <a class="nav-link __color-blue navbar-hover-effect" href="uk-study" id="navbarDropdown" role="button" aria-expanded="false">
                 UK Study
               </a>
               <ul class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Courses</a></li>
 
-                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="../hhglobaledu/university-lists.php">UK University</a></li>
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="university-lists">UK University</a></li>
 
                 <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Application Process</a></li>
 
@@ -51,7 +51,7 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link __color-blue navbar-hover-effect" href="services.php" id="navbarDropdown" role="button" aria-expanded="false">
+              <a class="nav-link __color-blue navbar-hover-effect" href="services" id="navbarDropdown" role="button" aria-expanded="false">
                 Services
               </a>
               <ul class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
@@ -69,10 +69,10 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="../hhglobaledu/global-branches.php">Branches</a>
+              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="global-branches">Branches</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="/hhglobaledu/registration-form.php">Registration</a>
+              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="registration-form">Registration</a>
             </li>
           </ul>
         </div>

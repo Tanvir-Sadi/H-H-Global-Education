@@ -1,5 +1,5 @@
 <?php
- require_once 'include/dbh.inc.php';
+ require_once '../hhglobaledu/include/dbh.inc.php';
 ?>
 
 <head>

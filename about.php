@@ -48,19 +48,6 @@
           </div>
         </div>
 
-        <div class="col">
-          <div class="card">
-            <img src="img\about\Rectangle 26-2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <a href="#" class="fw-bold">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="text-decoration-underline">Job Opportunity</span>
-                  <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
 
         <div class="col">
           <div class="card">
@@ -68,7 +55,7 @@
             <div class="card-body">
               <a href="#" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="text-decoration-underline">Meet the Team</span>
+                  <span class="text-decoration-underline">Our Services</span>
                   <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
                 </div>
               </a>
@@ -80,9 +67,9 @@
           <div class="card">
             <img src="img\about\Rectangle 26-4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <a href="#" class="fw-bold">
+              <a href="services" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="text-decoration-underline">Achievements</span>
+                  <span class="text-decoration-underline">Events</span>
                   <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
                 </div>
               </a>
@@ -96,7 +83,7 @@
             <div class="card-body">
               <a href="#" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="text-decoration-underline">Professional Recognition</span>
+                  <span class="text-decoration-underline">Meet the Team</span>
                   <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
                 </div>
               </a>
@@ -110,7 +97,7 @@
             <div class="card-body">
               <a href="#" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="text-decoration-underline">Testimonials from Students</span>
+                  <span class="text-decoration-underline">Testimonials</span>
                   <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
                 </div>
               </a>
@@ -160,6 +147,19 @@
           </div>
         </div>
 
+        <div class="col">
+          <div class="card">
+            <img src="img\about\Rectangle 26-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="#" class="fw-bold">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <span class="text-decoration-underline">Job Opportunity</span>
+                  <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -170,14 +170,14 @@
 
   <!-- Fast Fact Section Start -->
 
-  <?php require 'php/fast-facts.php'; ?>
+  <?php require 'php/fast-facts'; ?>
 
   <!-- Fast Fact Section Ends -->
 
 
   <!-- Footer Starts -->
 
-  <?php require 'php/footer.php'; ?>
+  <?php require 'php/footer'; ?>
 
   <!-- Footer Ends -->
 

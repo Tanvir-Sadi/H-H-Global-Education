@@ -5,7 +5,7 @@
         <div class="mb-3">
           <a class="mx-auto __color-blue __font-700">
             <img src="images\HANDHLOGO.png" class="rounded float-left" alt="H&H Global Education Logo">
-            <span class="navbar-brand my-auto" href="#">H&H Global Education</span>
+            <span class="navbar-brand my-auto" href="../">H&H Global Education</span>
           </a>
         </div>
 
@@ -33,9 +33,9 @@
           </li>
         </ul>
         <div>
-          <a class="social" href="#"><i class="fab fa-facebook-f"></i></a>
-          <a class="social" href="#"><i class="fab fa-twitter"></i></a>
-          <a class="social" href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a class="social" href="https://facebook.com/hhglobaledu"><i class="fab fa-facebook-f"></i></a>
+          <a class="social" href="https://www.instagram.com/hhglobaledu/"><i class="fab fa-instagram"></i></a>
+          <a class="social" href="https://www.linkedin.com/company/hhglobaledu/"><i class="fab fa-linkedin-in"></i></a>
         </div>
       </div>
       <div class="col-sm-12 col-md-6 my-5">
@@ -43,29 +43,29 @@
           <div class="col mb-3">
             <h6>Services</h6>
             <ul>
-              <li class="text-decoration-underline"><a href="services.php#bank_account">Student Bank Accounts</a></li>
-              <li class="text-decoration-underline"><a href="services.php#assessment">Free Assessment</a></li>
-              <li class="text-decoration-underline"><a href="services.php#visa_service">Visa Services</a></li>
-              <li class="text-decoration-underline"><a href="services.php#airport_pickup">Airport Pickup</a></li>
-              <li class="text-decoration-underline"><a href="services.php#travel_card">Student Travel Card</a></li>
+              <li class="text-decoration-underline"><a href="services#bank_account">Student Bank Accounts</a></li>
+              <li class="text-decoration-underline"><a href="services#assessment">Free Assessment</a></li>
+              <li class="text-decoration-underline"><a href="services#visa_service">Visa Services</a></li>
+              <li class="text-decoration-underline"><a href="services#airport_pickup">Airport Pickup</a></li>
+              <li class="text-decoration-underline"><a href="services#travel_card">Student Travel Card</a></li>
             </ul>
           </div>
           <div class="col mb-3">
             <h6>UK Study</h6>
             <ul>
-              <li class="text-decoration-underline"><a href="#">Courses</a></li>
-              <li class="text-decoration-underline"><a href="../hhglobaledu/university-lists.php">UK University</a></li>
-              <li class="text-decoration-underline"><a href="#">Application Process</a></li>
-              <li class="text-decoration-underline"><a href="#">Scholarship</a></li>
-              <li class="text-decoration-underline"><a href="#">Help & Support</a></li>
+              <li class="text-decoration-underline"><a href="https://handhworldwide.com/university-list">Courses</a></li>
+              <li class="text-decoration-underline"><a href="university-lists">UK University</a></li>
+              <li class="text-decoration-underline"><a href="handhworldwide#application-process">Application Process</a></li>
+              <li class="text-decoration-underline"><a href="https://handhworldwide.com/students">Scholarship</a></li>
+              <li class="text-decoration-underline"><a href="https://handhworldwide.com/students">Help & Support</a></li>
             </ul>
           </div>
           <div class="col mb-3">
             <h6>Quick Links</h6>
             <ul>
-              <li class="text-decoration-underline"><a href="../hhglobaledu/about.php">About</a></li>
-              <li class="text-decoration-underline"><a href="#">Our Support</a></li>
-              <li class="text-decoration-underline"><a href="#">Offices</a></li>
+              <li class="text-decoration-underline"><a href="about">About</a></li>
+              <li class="text-decoration-underline"><a href="services">Our Support</a></li>
+              <li class="text-decoration-underline"><a href="global-branches">Offices</a></li>
             </ul>
           </div>
         </div>
