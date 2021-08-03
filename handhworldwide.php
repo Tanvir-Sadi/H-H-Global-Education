@@ -2,6 +2,24 @@
 <html lang="en">
 <?php require 'php/header.php'; ?>
 
+  <!--  Essential META Tags -->
+
+  <meta property="og:title" content="H&H Global Education">
+  <meta property="og:description" content="Serving Your Future Through Education">
+  <meta property="og:image" content="img\hero.jpg">
+  <meta property="og:url" content="https://www.hhglobaledu.co.uk/">
+  <meta name="twitter:card" content="summary_large_image">
+
+
+  <!--  Non-Essential, But Recommended -->
+
+  <meta property="og:site_name" content="H&H Global Education">
+  <meta name="twitter:image:alt" content="Serving Your Future Through Education">
+
+  <title>H&H Global Education | Serving Your Future Through Education</title>
+</head>
+
+
 <body>
   <?php require 'php/navbar.php'; ?>
 
@@ -21,7 +39,7 @@
       </div>
     </div>
 
-    <div class="application-steps my-5">
+    <div class="application-steps my-5" id="how-it-works">
       <div class="container px-5">
         <h1 class="text-center">How It Works</h1>
         <div class="row my-5">

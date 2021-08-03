@@ -2,6 +2,24 @@
 <html lang="en">
 <?php require 'php/header.php'; ?>
 
+  <!--  Essential META Tags -->
+
+  <meta property="og:title" content="H&H Global Education">
+  <meta property="og:description" content="Serving Your Future Through Education">
+  <meta property="og:image" content="img\hero.jpg">
+  <meta property="og:url" content="https://www.hhglobaledu.co.uk/">
+  <meta name="twitter:card" content="summary_large_image">
+
+
+  <!--  Non-Essential, But Recommended -->
+
+  <meta property="og:site_name" content="H&H Global Education">
+  <meta name="twitter:image:alt" content="Serving Your Future Through Education">
+
+  <title>H&H Global Education | Serving Your Future Through Education</title>
+</head>
+
+
 <body>
   <?php require 'php/navbar.php'; ?>
 
@@ -167,18 +185,29 @@
 
   <!-- hero 2 end -->
 
+  <!-- GlobaL Presence -->
+
+  <div class="jobs py-5">
+    <div class="container">
+      <h1 class="text-center text-light mb-5 fw-light">Our Global Presence</h1>
+      <?php include 'php/maps.php'; ?>
+    </div>
+  </div>
+
+  <!-- GlobaL Presence -->
+
   <!-- Fast Fact Section Start -->
   <?php require 'php/fast-facts.php'; ?>
   <!-- Fast Fact Section Ends -->
 
   <!-- Testimonials Starts -->
-  <div class="testimonial">
+  <div class="testimonial" id="testimonial">
     <div class="container my-5 py-5">
       <h2 class="text-center __color-red mb-0">Satisfied Customers</h2>
       <p class="text-center fw-bold mb-3.">Some happy thoughts from our students</p>
       <div class="owl-carousel">
 
-        <div class="testimonial-card m-3 mb-5 m-md-5">
+        <div class="testimonial-card card m-3 mb-5 m-md-5">
           <div class="card-body p-5">
             <div class="d-inline-flex align-items-center">
               <img src="img\Asset 1.svg" alt="" class="testimonial__img me-3">
@@ -191,7 +220,7 @@
           </div>
         </div>
 
-        <div class="testimonial-card m-3 mb-5 m-md-5">
+        <div class="testimonial-card card m-3 mb-5 m-md-5">
           <div class="card-body p-5">
             <div class="d-inline-flex align-items-center">
               <img src="img\Asset 2.svg" alt="" class="testimonial__img me-3">
@@ -204,7 +233,7 @@
           </div>
         </div>
 
-        <div class="testimonial-card m-3 mb-5 m-md-5">
+        <div class="testimonial-card card m-3 mb-5 m-md-5">
           <div class="card-body p-5">
             <div class="d-inline-flex align-items-center">
               <img src="img\Asset 3.svg" alt="" class="testimonial__img me-3">
@@ -243,6 +272,8 @@
     </div>
   </div>
   <!-- Testimonial Video Ends -->
+
+
 
   <!-- Footer Starts -->
   <?php require 'php/footer.php'; ?>

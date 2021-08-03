@@ -21,15 +21,17 @@
         </div>
         <div class="justify-content-center collapse navbar-collapse align-self-center" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 __font-700 __roboto-font">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="..">Home</a>
-            </li>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="about">About</a>
+              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="about">
+                About
+              </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link __color-blue navbar-hover-effect position-relative" aria-current="page" href="handhworldwide">
+              <a class="nav-link __color-blue navbar-hover-effect" aria-current="page" href="handhworldwide">
                 H&H Worldwide
               </a>
             </li>
@@ -43,7 +45,7 @@
 
                 <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="university-lists">UK University</a></li>
 
-                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Application Process</a></li>
+                <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="handhworldwide#how-it-works">Application Process</a></li>
 
                 <li><a class="dropdown-item __color-lightblue dropdown-item-hover" href="#">Scholarship</a></li>
 

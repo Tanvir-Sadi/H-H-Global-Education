@@ -2,6 +2,24 @@
 <html lang="en">
 <?php require 'php/header.php'; ?>
 
+  <!--  Essential META Tags -->
+
+  <meta property="og:title" content="H&H Global Education">
+  <meta property="og:description" content="Serving Your Future Through Education">
+  <meta property="og:image" content="img\hero.jpg">
+  <meta property="og:url" content="https://www.hhglobaledu.co.uk/">
+  <meta name="twitter:card" content="summary_large_image">
+
+
+  <!--  Non-Essential, But Recommended -->
+
+  <meta property="og:site_name" content="H&H Global Education">
+  <meta name="twitter:image:alt" content="Serving Your Future Through Education">
+
+  <title>H&H Global Education | Serving Your Future Through Education</title>
+</head>
+
+
 <body>
   <?php require 'php/navbar.php'; ?>
 
@@ -29,16 +47,13 @@
   <div class="about">
     <div class="container my-5">
 
-      <h2 class="mb-1 col-6">Serving Your Future Through Education</h2>
-      <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue commodo, donec posuere in. Praesent ante facilisis tellus blandit. Sed mi sagittis libero nulla nec, elit vulputate donec. Ullamcorper bibendum volutpat id nec non sed. Maecenas commodo tempor a turpis.</p>
-
       <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-5">
 
         <div class="col">
           <div class="card">
             <img src="img\about\Rectangle 26-1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <a href="#" class="fw-bold">
+              <a href="who-we-are" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
                   <span class="text-decoration-underline">Who We Are</span>
                   <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
@@ -53,7 +68,7 @@
           <div class="card">
             <img src="img\about\Rectangle 26-3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <a href="#" class="fw-bold">
+              <a href="services" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
                   <span class="text-decoration-underline">Our Services</span>
                   <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
@@ -67,7 +82,7 @@
           <div class="card">
             <img src="img\about\Rectangle 26-4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <a href="services" class="fw-bold">
+              <a href="registration-form" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
                   <span class="text-decoration-underline">Events</span>
                   <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
@@ -81,7 +96,7 @@
           <div class="card">
             <img src="img\about\Rectangle 26-5.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <a href="#" class="fw-bold">
+              <a href="team" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
                   <span class="text-decoration-underline">Meet the Team</span>
                   <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
@@ -95,7 +110,7 @@
           <div class="card">
             <img src="img\about\Rectangle 26-6.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <a href="#" class="fw-bold">
+              <a href="index#testimonial" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
                   <span class="text-decoration-underline">Testimonials</span>
                   <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
@@ -123,7 +138,7 @@
           <div class="card">
             <img src="img\about\Rectangle 26-8.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <a href="#" class="fw-bold">
+              <a href="global-branches" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
                   <span class="text-decoration-underline">Global Branches</span>
                   <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
@@ -151,7 +166,7 @@
           <div class="card">
             <img src="img\about\Rectangle 26-2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <a href="#" class="fw-bold">
+              <a href="jobs" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
                   <span class="text-decoration-underline">Job Opportunity</span>
                   <i class="fas fa-lg fa-arrow-alt-circle-right"></i>
@@ -170,14 +185,14 @@
 
   <!-- Fast Fact Section Start -->
 
-  <?php require 'php/fast-facts'; ?>
+  <?php require 'php/fast-facts.php'; ?>
 
   <!-- Fast Fact Section Ends -->
 
 
   <!-- Footer Starts -->
 
-  <?php require 'php/footer'; ?>
+  <?php require 'php/footer.php'; ?>
 
   <!-- Footer Ends -->
 

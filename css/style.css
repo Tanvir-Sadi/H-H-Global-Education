@@ -2,8 +2,9 @@
 /*variable for color*/
 :root {
   --blue: #333B69;
+  --lightRed: #FFA5A5;
   --red: #BE0000;
-  --lightblue: #6A798C;
+  --lightblue: #172b4d;
   --footerblue: #F2F4FF;
   --orange: #FA6262;
 }
@@ -38,10 +39,9 @@ a {
 		color: var(--blue); }
 
 p {
-	font-size: 15px;
-	color: #6A798C;
+	font-size: 1rem;
+	color: #172b4d;
 	font-weight: 400;
-	line-height: 24px;
 	margin: 0 0 10px; }
 
 video {
@@ -122,6 +122,9 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 .__color-red{
   color: var(--red) !important;
+}
+.__color-lightRed{
+  color: var(--lightRed) !important;
 }
 .__color-lightblue{
   color: var(--lightblue) !important;
@@ -578,4 +581,103 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     background-size: contain;
     height: 57px;
     background-repeat: no-repeat;
+}
+
+/* ---------------------------------- */
+/* Director Msg */
+/* ---------------------------------- */
+
+/* ---------------------------------- */
+/* University List */
+/* ---------------------------------- */
+.university{
+  background: radial-gradient(79.73% 80.62% at 13.94% 18.99%, rgba(44, 70, 10, 0.2) 24.05%, rgba(143, 255, 0, 0.2) 100%), #C2D3FF;
+}
+
+.__msg-director{
+  background: linear-gradient(261.97deg, rgba(255, 0, 0, 0.2) 19.46%, rgba(255, 0, 0, 0) 68.46%), #333B69;
+}
+
+/* ---------------------------------- */
+/* Leadership */
+/* ---------------------------------- */
+.leadership{
+  /* background: linear-gradient(261.97deg, rgba(255, 255, 255, 0.7) 60.71%, rgba(31, 59, 114, 0.2) 63.04%), #DCDCDC; */
+}
+.leadership .card{
+  border-radius: 9px;
+  transform: scale(0.85);
+  transition: all .3s ease-in-out;
+}
+.leadership .card:hover{
+  transform: scale(1);
+  box-shadow: 0px -8px 17px rgba(255, 0, 0, 0.25);
+}
+
+.leadership img{
+  border-radius: 9px 9px 0px 0px;
+}
+
+/* ---------------------- */
+/* jobs */
+
+.jobs {
+  background: #000D2D;;
+}
+/* ---------------------- */
+
+/*
+.leadership .card-body{
+  transition: all .5s ease-in-out;
+}
+
+.leadership .card-body:hover{
+  background: black;
+} */
+
+/* --------------------- */
+/* Courses */
+/* --------------------- */
+
+.course{
+  /* height: 70vh; */
+}
+
+/* --------------------- */
+/* Team */
+/* --------------------- */
+ .team{
+   background: linear-gradient(261.97deg, rgba(173, 171, 242, 0.2) 19.46%, rgba(255, 0, 0, 0) 68.46%), #E4E4E6;
+ }
+
+
+
+.custom-shape-divider-top-1627370783 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    border-radius: 9px;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1627370783 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 25px;
+}
+
+.custom-shape-divider-top-1627370783 .shape-fill {
+    fill: #dc3545;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1627370783 svg {
+        width: calc(100% + 1.3px);
+        height: 25px;
+    }
 }

@@ -2,6 +2,24 @@
 <html lang="en">
 <?php require 'php/header.php'; ?>
 
+  <!--  Essential META Tags -->
+
+  <meta property="og:title" content="H&H Global Education">
+  <meta property="og:description" content="Serving Your Future Through Education">
+  <meta property="og:image" content="img\hero.jpg">
+  <meta property="og:url" content="https://www.hhglobaledu.co.uk/">
+  <meta name="twitter:card" content="summary_large_image">
+
+
+  <!--  Non-Essential, But Recommended -->
+
+  <meta property="og:site_name" content="H&H Global Education">
+  <meta name="twitter:image:alt" content="Serving Your Future Through Education">
+
+  <title>H&H Global Education | Serving Your Future Through Education</title>
+</head>
+
+
 <body>
   <?php require 'php/navbar.php'; ?>
 
@@ -52,7 +70,7 @@
           <div class="card">
             <img src="img\uk-study\Rectangle 26-1.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <a href="#" class="fw-bold">
+              <a href="courses" class="fw-bold">
                 <div class="d-flex justify-content-between align-items-center mb-2">
                   <span class="text-decoration-underline">Find A Course</span>
                   <i class="fas fa-lg fa-arrow-alt-circle-right"></i>

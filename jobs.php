@@ -23,32 +23,16 @@
 <body>
   <?php require 'php/navbar.php'; ?>
 
-  <!-- hero start -->
-
-  <div class="container-fluid __color-background-footerblue py-5">
-      <div class="container">
-        <div class="row d-sm-block">
-          <div class="col-12 col-lg-6 clear-right">
-            <div class="jumbotron jumbotron-fluid">
-              <div class="my-5 py-5 __roboto-font">
-                <h1>Meet The Team</h1>
-                <p class="lead __color-lightblue">H&H Global is an Education Consultancy firm based in London, The UK. We provide information to prospective students regarding their aspired courses.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+  <div class="jobs py-5">
+    <div class="container">
+      <h1 class="text-center text-light mb-3 fw-light">Work with us from All over the World!</h1>
+      <div class="d-flex justify-contents-center">
+        <a type="button" href="https://www.linkedin.com/jobs/view/2645688124/" class="btn btn-lg btn-outline-light mx-auto mb-5">Apply With Linkedin</a>
       </div>
+      <?php include 'php/maps.php'; ?>
     </div>
+  </div>
 
-  <!-- hero end -->
-
-
-
-  <!-- Fast Fact Section Start -->
-
-  <?php require 'php/fast-facts.php'; ?>
-
-  <!-- Fast Fact Section Ends -->
 
 
   <!-- Footer Starts -->
